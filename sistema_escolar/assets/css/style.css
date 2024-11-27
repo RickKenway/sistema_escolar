@@ -1,0 +1,214 @@
+Estilos da dashboard
+.dashboard-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+input {
+    text-align: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.turmas-container {
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.turmas-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.turma-card {
+    background-color: #00aaff;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.turma-card h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.btn-atividades {
+    background-color: white;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.btn-atividades:hover {
+    background-color: #f0f0f0;
+}
+
+.btn-excluir {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-excluir:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o botão "Adicionar Turma" sem o "+" */
+.btn-add-turma {
+    display: inline-flex;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    font-size: 18px;
+    padding: 10px 40px;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    bottom: 30px;
+    right: 30px; /* Posiciona o botão a partir da margem esquerda da tela */
+}
+
+.btn-add-turma:hover {
+    background-color: #444;
+}
+
+
+/* Estilos para o botão "Home" e o ícone de logout */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #00aaff;
+    color: white;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos da tela de listagem de atividades */
+.atividades-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.atividade-card {
+    background-color: #00aaff;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.atividade-card h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para o botão "Adicionar Atividade" sem o "+" */
+.btn-add-atividade {
+    display: inline-flex;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    text-align: center;
+    border-radius: 30px; /* Bordas arredondadas */
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.btn-add-atividade:hover {
+    background-color: #444;
+}
+
+.btn-back {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Estilos da tela de cadastro de atividade */
+.form-container {
+    background-color: #00aaff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.form-container label {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-container input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-container input[type="submit"] {
+    padding: 10px 20px;
+    background-color: white;
+    color: #007bff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #f0f0f0;
+}
